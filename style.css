@@ -25,23 +25,26 @@ body {
  font-weight: bold;
 }
 
+.grid {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    color: orange;
+}
+
 .items {
     display: flex;
     align-items: center;
-    justify-content: center; 
-    
+    justify-content: center;     
 } 
 
 .products {
     margin-top: 3%;
-}
-
-.icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    color: orange;
 }
 
 #video {
@@ -86,4 +89,10 @@ footer > span {
     justify-content: flex-end;
     font-size: 0.9em;
     color: #444;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
