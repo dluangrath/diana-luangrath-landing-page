@@ -32,10 +32,17 @@ body {
 .icon {
     display: flex;
     text-align: center;
+    justify-content: center;
     height: 100px;
     width: 100px;
     color: orange;
 }
+
+.spec {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 .items {
     display: flex;
@@ -60,7 +67,7 @@ body {
 }
 
 .card-header {
-    font-weight: 500;
+    font-weight: 500; 
 }
 
 #btn-select {
@@ -78,9 +85,16 @@ ul {
     list-style-type: none;
 }
 
-  footer > ul {
+footer > ul {
     display: flex;
     justify-content: flex-end; 
+    color: black;
+    padding: 10px;
+    margin: 3px;
+}
+
+footer > li {
+    display: flex;
 }
 
 footer > span {
@@ -96,3 +110,12 @@ footer > span {
     align-content: center;
     justify-content: center;
 }
+
+footer {
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.03);
+    text-align: center;
+  }
