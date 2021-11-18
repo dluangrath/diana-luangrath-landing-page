@@ -27,6 +27,8 @@ body {
 
 .grid {
     display: flex;
+    justify-content: flex-start;
+    max-width: 800px;
 }
 
 .icon {
@@ -109,6 +111,13 @@ footer > span {
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+#icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer {
